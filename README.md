@@ -1,14 +1,16 @@
 # TableLayout 
+Introduction: 
 
-One Paragraph of project description goes here
-Tablelayout is a layout were it can organized it's children into rows and columns, the layout container  does not need to have borders lines  for its columns, rows, or even cells. Also Tablelayout consiste of a number of tablerow objects, this table it can have column an 
+Tablelayout is a layout were it can organized it's children into rows and columns, this layout container  does not need to have borders lines  for its columns, rows, or even cells. Also Tablelayout consiste of a number of tableRow objects, this table it can have many columns and rows, in each rows it can have zero or more cells and each cell have one view object.  
 
-## Getting Started
+
+# History :
+
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+# The major methods/attributes
 
-### Prerequisites
-
+In the XML attributes,by using SetColumnShrinkable(), it will shrink in the width of the column to get it fit with table into its parent object. Also using SetColumnStretchable(), which will stretch the width of column and it will fit any extra spaces, and setColumnCollapsed() which will hide the column. However 
 What things you need to install the software and how to install them
 
 ```
