@@ -1,17 +1,18 @@
 # TableLayout 
-Introduction: 
+# Introduction: 
 
-Tablelayout is a layout were it can organized it's children into rows and columns, this layout container  does not need to have borders lines  for its columns, rows, or even cells. Also Tablelayout consiste of a number of tableRow objects, this table it can have many columns and rows, in each rows it can have zero or more cells and each cell have one view object.  
+Tablelayout is a layout were it can organized it's children into rows and columns, this layout container  does not need to have borders lines  for its columns, rows, or even cells. Also Tablelayout consiste of a number of tableRow objects, this table it can have many columns and rows, in each rows it can have zero or more cells and each cell have one view object for example ImageView, or TextView. Table it can leave cells empty, but a cell can not extend a column  
 
 
 # History :
 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 # The major methods/attributes
 
-In the XML attributes,by using SetColumnShrinkable(), it will shrink in the width of the column to get it fit with table into its parent object. Also using SetColumnStretchable(), which will stretch the width of column and it will fit any extra spaces, and setColumnCollapsed() which will hide the column. However 
-What things you need to install the software and how to install them
+In the XML attributes,id this attribute used to identify as a tablelayout, and by using SetColumnShrinkable(), it will shrink in the width of the column to get it fit with table into its parent object. Also using SetColumnStretchable(), which will stretch the width of column and it will fit any extra spaces, and setColumnCollapsed() which will hide the column. However, total width of a table is defined by its parent continer, the layout_width is always will be Match_parent, but the layout_hight it can be defined as a child and if it's a TablRow then it should be using Wrap_Content, the TableRow is for builing a row. 
+
+# Example:
+
 
 ```
 Give examples
