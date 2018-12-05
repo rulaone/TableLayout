@@ -23,9 +23,10 @@ Having the first example which shows, using tablelayout and having shrinkColumn 
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context=".MainActivity"
-    android:shrinkColumns="*"<!-- have all columns shrink-->
+    android:shrinkColumns="*"> <!-- have all columns shrink-->
 
-    >
+    
+    <!--having tableRow using a wrap_content -->
     <TableRow
         android:layout_width= "wrap_content"
         android:layout_height= "wrap_content"
@@ -43,5 +44,9 @@ Having the first example which shows, using tablelayout and having shrinkColumn 
 
 ```
 In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how uyou can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/Tablelayout.zip)
+
+# The reference
+(https://developer.android.com/reference/android/widget/TableLayout)
+
 
 
