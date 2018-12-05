@@ -7,7 +7,7 @@ Tablelayout is a layout were it can organized it's children into rows and column
 # History :
 
 
-# The major methods/attributes
+# The major methods/attributes:
 
 In the XML attributes,id this attribute used to identify as a tablelayout, and by using SetColumnShrinkable(), it will shrink in the width of the column to get it fit with table into its parent object. Also using SetColumnStretchable(), which will stretch the width of column and it will fit any extra spaces, and setColumnCollapsed() which will hide the column. However, total width of a table is defined by its parent continer, the layout_width is always will be Match_parent, but the layout_hight it can be defined as a child and if it's a TablRow then it should be using Wrap_Content, the TableRow is for builing a row. 
 
@@ -43,10 +43,10 @@ Having the first example which shows, using tablelayout and having shrinkColumn 
 </TableRow>
 
 ```
-In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how uyou can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/Tablelayout.zip)
+In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how uyou can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/Tablelayout.zip). Also by writing which 
 
 # The reference
-(https://developer.android.com/reference/android/widget/TableLayout)
+https://developer.android.com/reference/android/widget/TableLayout
 
 
 
