@@ -5,7 +5,8 @@ Tablelayout is a layout were it can organized it's children into rows and column
 
 
 # History :
-
+This component was introduced into the Android system with a level of 1, and until 
+such as when was it introduced into the Android system (API #), and what is the package library the component was included in
 
 # The major methods/attributes:
 
