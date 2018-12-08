@@ -11,7 +11,7 @@ This component was introduced into the Android system with a level of 1, and unt
 In the XML attributes,id this attribute used to identify as a tablelayout, and by using SetColumnShrinkable(), it will shrink in the width of the column to get it fit with table into its parent object. Also using SetColumnStretchable(), which will stretch the width of column and it will fit any extra spaces, and setColumnCollapsed() which will hide the column. However, total width of a table is defined by its parent continer, the layout_width is always will be Match_parent, but the layout_hight it can be defined as a child and if it's a TablRow then it should be using Wrap_Content, the TableRow is for builing a row. 
 
 # Example:
-Having the first example which shows, using tablelayout and having shrinkColumn (*) that mean it will shrink all the cloumns in there. Also, you can  change shrinkColumn from * to a specific column for example if it is the first column it should be (0)  which shows in the [example2](https://raw.githubusercontent.com/rulaone/TableLayout/master/eample2.PNG), or you can change it to "1"such as in [example3](https://raw.githubusercontent.com/rulaone/TableLayout/master/eample3.PNG) which will stretch the second column. An you can change it from stretch to shirnk in the size:  
+In each Tablelayout it wil have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how you can use [TableLayout](https://github.com/rulaone/table2). Having the first example which shows, using tablelayout and having shrinkColumn (*) that mean it will shrink all the cloumns in there. Also, you can  change shrinkColumn from * to a specific column for example if it is the first column it should be (0)  which shows in the [example2](https://raw.githubusercontent.com/rulaone/TableLayout/master/eample2.PNG), or you can change it to "1"such as in [example3](https://raw.githubusercontent.com/rulaone/TableLayout/master/eample3.PNG) which will stretch the second column. An you can change it from stretch to shirnk in the size:  
 ```
 <TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -84,10 +84,17 @@ By using the collapscolum which will hide the columns like in [example5](https:/
     <!--collapse will hide column  one and two->
 ```
 
-In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how you can use [TableLayout](https://github.com/rulaone/table2).  
+
 
 # The reference
 https://developer.android.com/reference/android/widget/TableLayout
+
+
+
+
+
+
+
 
 
 
