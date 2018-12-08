@@ -44,7 +44,7 @@ Having the first example which shows, using tablelayout and having shrinkColumn 
 </TableRow>
 
 ```
-In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how uyou can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/Tablelayout.zip). Also by writing which 
+In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how uyou can use [table2](https://github.com/rulaone/table2). Also by writing which 
 
 # The reference
 https://developer.android.com/reference/android/widget/TableLayout
