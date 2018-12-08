@@ -84,7 +84,7 @@ By using the collapscolum which will hide the columns like in [example5](https:/
     <!--collapse will hide column  one and two->
 ```
 
-In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how you can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/Tablelayout.zip).  
+In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how you can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/table2.zip).  
 
 # The reference
 https://developer.android.com/reference/android/widget/TableLayout
