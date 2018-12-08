@@ -1,7 +1,7 @@
 # TableLayout 
 # Introduction: 
 
-Tablelayout is a layout were it can organized it's children into rows and columns, this layout container  does not need to have borders lines  for its columns, rows, or even cells. Also Tablelayout consiste of a number of tableRow objects, this table it can have many columns and rows, in each rows it can have zero or more cells and each cell have one view object for example ImageView, or TextView. Table it can leave cells empty, but a cell can not extend a column  
+Tablelayout is a layout where it can organized it's children into rows and columns, this layout container  does not need to have borders lines  for its columns, rows, or even cells. Also Tablelayout consiste of a number of tableRow objects, this table it can have many columns and rows, in each rows it can have zero or more cells and each cell have one view object for example ImageView, or TextView. Table it can leave cells empty, but a cell can not extend a column  
 
 
 # History :
@@ -40,6 +40,50 @@ Having the first example which shows, using tablelayout and having shrinkColumn 
 </TableRow>
 
 ```
+Also you can use both of them the shrink and stretch them like in [example4](https://raw.githubusercontent.com/rulaone/TableLayout/master/eample4.PNG) :
+
+```
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1"
+    android:shrinkColumns="0">
+    <!-- this can stretch the second  colum which is (n-1)and shrink the third column -->
+
+    <!--having tableRow using a wrap_content-->
+    <TableRow
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:text="Item 1"
+            android:id="@+id/butitem1"
+            />
+        <TextView
+            android:text="Text 1"
+            android:id="@+id/butitem2"
+            />
+```
+By using the collapscolum which will hide the columns like in [example5](https://github.com/rulaone/TableLayout/blob/master/eample5.PNG):
+```
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1"
+    android:shrinkColumns="0"
+    android:collapseColumns="1,2">
+    <!--collapse will hide column  one and two->
+```
+
 In each Tablelayout it have a tableRow, inside the tablerow it can have a TextView,Button, or ImageView.In this example it show how you can use [TableLayout](https://github.com/rulaone/TableLayout/blob/master/Tablelayout.zip).  
 
 # The reference
