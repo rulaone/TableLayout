@@ -69,7 +69,7 @@ Also you can use both of them the shrink and stretch them like in [example4](htt
             android:id="@+id/butitem2"
             />
 ```
-By using the collapscolum which will hide the columns like in [example5](https://github.com/rulaone/TableLayout/blob/master/eample5.PNG):
+By using the collapscolumn which will hide the columns like in [example5](https://github.com/rulaone/TableLayout/blob/master/eample5.PNG):
 ```
 <TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
